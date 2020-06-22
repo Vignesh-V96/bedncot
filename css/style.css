@@ -193,6 +193,13 @@ nav{
 .disp_flex {
     display: flex;
 }
+
+.icon.social {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    color: #262626;
+}
+
 .footer .social_icon_group a {
     text-decoration: none;
     color: #232323;
@@ -238,6 +245,9 @@ nav{
     border-top: 21px solid #232323;
     margin-left: 1px;
 }
+.position_relative {
+    position: relative;
+}
 
 .left{
     width: 100%;
@@ -264,7 +274,8 @@ background-color: #000000;
 }
  
  .icon {
-    padding: 20px;
+	padding: 20px;
+	border-radius: 50%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
